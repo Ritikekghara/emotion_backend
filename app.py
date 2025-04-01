@@ -3,7 +3,7 @@ from flask_cors import CORS  # Import CORS
 import numpy as np
 import tensorflow as tf
 import cv2
-import serve from waitress
+from waitress import serve
 
 app = Flask(__name__)
 CORS(app)  # Enable CORS for all routes
